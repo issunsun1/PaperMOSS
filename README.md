@@ -19,17 +19,23 @@ Use this skill to search multiple arXiv categories in parallel, filter by multip
 
 ```bash
 python3 scripts/arxiv_cs_ai_digest.py \
-  --category cs.AI \
-  --category cs.CL,cs.LG \
-  --keyword "large language model" \
-  --keyword "reasoning,planning" \
+  --category cs.AI,cs.CL,cs.LG,cs.CV \
+  --keyword "your keyword" \
   --mode any \
-  --max-results 20 \
+  --date-from yy-mm-dd \
+  --date-to yy-mm-dd \
+  --max-results 50 \
   --summary-provider openai-compatible \
-  --llm-api-base "https://api.example.com/v1" \
-  --llm-api-key "$LLM_API_KEY" \
-  --llm-model "your-model-name" \
-  --output markdown
+  --summary-language zh \
+  --llm-api-base "your api url" \
+  --llm-api-key "your api key" \
+  --llm-model "your model" \
+  --llm-max-papers 200 \
+  --llm-timeout 30 \
+  --output markdown \
+  --markdown-theme colorful \
+  --save-markdown ./ \
+  --verbose
 ```
 
 ## Output Contract
