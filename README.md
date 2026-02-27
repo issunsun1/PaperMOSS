@@ -10,7 +10,7 @@ Description: Fetch, filter, and summarize arXiv papers for user-provided keyword
 Use this skill to search multiple arXiv categories in parallel, filter by multiple keywords, and generate concise summaries with either extractive logic or an OpenAI-compatible third-party LLM API.
 
 ## Overview
-![sample](./image/sample.png)
+<img src="image/sample.png" width="100%">
 
 ## Workflow
 
