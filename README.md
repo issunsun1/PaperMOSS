@@ -1,5 +1,6 @@
 # PaperMOSS
 Name: arxiv-cs-ai-digest \
+项目描述: 根据用户提供的关键词，从 arXiv 检索并汇总一个或多个类别（例如 cs.AI、cs.CL、cs.LG）中的论文，并返回带有链接的 arXiv ID。适用于用户请求多主题文献监测、并行跨类别搜索、生成摘要或使用第三方 LLM API 生成简洁摘要。\
 Description: Fetch, filter, and summarize arXiv papers for user-provided keywords across one or more categories (for example cs.AI, cs.CL, cs.LG), and return arXiv IDs with links. Use when users ask for multi-topic literature monitoring, parallel cross-category search, digest generation, or concise summaries using a third-party LLM API.
 ---
 
