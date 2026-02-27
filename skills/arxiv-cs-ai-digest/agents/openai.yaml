@@ -1,0 +1,4 @@
+interface:
+  display_name: "ArXiv CS.AI Digest"
+  short_description: "Parallel arXiv topic search with optional LLM summaries"
+  default_prompt: "Use $arxiv-cs-ai-digest to search cs.AI, cs.CL, cs.LG with multiple keywords and summarize papers via my OpenAI-compatible LLM API."
